@@ -24,3 +24,12 @@ Procedure:
 •	Run the program.
 •	Observe the output chart.
 •	Verify the result.
+Benefits:
+•	Easy to understand data.
+•	Shows trends and comparisons.
+•	Helps in better decision making.
+•	Makes reports more attractive.
+Result:
+The required charts were created successfully using simple Python programs
+Conclusion:
+Simple data visualization charts were implemented successfully using the Matplotlib library. The experiment helps beginners understand how graphical representations make data easier to analyze.
