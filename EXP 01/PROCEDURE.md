@@ -1,0 +1,26 @@
+                                  1. Introduction to Various Data Visualization Tools
+
+
+
+Aim:
+To learn the basics of data visualization and create simple charts using Python.
+Theory
+Data visualization is the graphical representation of data. It helps users understand patterns, trends, and comparisons easily. Matplotlib is one of the most popular Python libraries for creating charts.
+Software Requirements
+•	Python 3.x
+•	Jupyter Notebook / Google Colab
+•	Matplotlib Library
+Algorithm:
+1. Start the Python environment.
+2. Import the Matplotlib library.
+3. Create a simple dataset.
+4. Select a chart type.
+5. Plot the chart.
+6. Display the chart.
+7. Stop.
+Procedure:
+•	Open Jupyter Notebook or Google Colab.
+•	Write the Python program.
+•	Run the program.
+•	Observe the output chart.
+•	Verify the result.
