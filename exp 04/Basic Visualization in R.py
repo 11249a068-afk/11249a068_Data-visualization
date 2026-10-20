@@ -19,7 +19,7 @@ To create a basic line graph using R programming.
 
 ## Program
 
-
+import matplotlib.pyplot as plt
 x <- c(1, 2, 3, 4, 5)
 y <- c(10, 15, 12, 18, 20)
 
