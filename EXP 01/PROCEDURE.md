@@ -33,3 +33,18 @@ Result:
 The required charts were created successfully using simple Python programs
 Conclusion:
 Simple data visualization charts were implemented successfully using the Matplotlib library. The experiment helps beginners understand how graphical representations make data easier to analyze.
+
+sample output:
+  Name Marks Age
+1    A    75  18
+2    B    85  19
+3    C    60  18
+4    D    90  20
+5    E    70  19
+
+Output:
+1. Bar plot displaying student marks.
+2. Histogram showing the distribution of marks.
+3. Pie chart showing each student's marks.
+4. Scatter plot showing age versus marks.
+5. Box plot displaying the distribution of marks.
