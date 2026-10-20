@@ -19,7 +19,7 @@ To create a basic line graph using R programming.
 
 ## Program
 
-```r
+
 x <- c(1, 2, 3, 4, 5)
 y <- c(10, 15, 12, 18, 20)
 
@@ -29,4 +29,3 @@ plot(x, y,
      main = "Line Graph",
      xlab = "X Values",
      ylab = "Y Values")
-```
