@@ -17,7 +17,6 @@ To study various data visualization tools and display the installed versions of 
 
 ## Program
 
-```python
 import matplotlib
 import seaborn
 import plotly
