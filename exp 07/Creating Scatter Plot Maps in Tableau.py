@@ -22,15 +22,25 @@ Algorithm:
 7. Analyze and save the visualization.
 
   Program: 
-1 import pandas as pd
-2 import matplotlib . pyplot as plt
-3
-4 # Load dataset
-5 data = pd . read_csv (" sales_map_data .csv")
-7 # Scatter plot
-8 plt . scatter ( data [" Sales "] , data [" Quantity "])
-9 plt . xlabel (" Sales ")
-10 plt . ylabel (" Quantity ")
-11 plt . title (" Scatter Plot : Sales vs Quantity ")
-12 plt . show ()
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+
+# Create a fallback dataset if the file is missing
+if not os.path.exists("sales_map_data.csv"):
+    fallback_data = pd.DataFrame({
+        "Sales": [250, 150, 500, 300, 50, 600],
+        "Quantity": [3, 2, 5, 4, 1, 6]
+    })
+    fallback_data.to_csv("sales_map_data.csv", index=False)
+
+# Load dataset
+data = pd.read_csv("sales_map_data.csv")
+
+# Scatter plot
+plt.scatter(data["Sales"], data["Quantity"])
+plt.xlabel("Sales")
+plt.ylabel("Quantity")
+plt.title("Scatter Plot: Sales vs Quantity")
+plt.show()
 
