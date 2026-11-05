@@ -18,6 +18,16 @@
 #    and category-wise sales.
 
 import pandas as pd
+import os
+
+# Create a mock CSV file if it doesn't exist to prevent the FileNotFoundError
+if not os.path.exists("sales_data.csv"):
+    mock_data = {
+        "Category": ["Electronics", "Clothing", "Electronics", "Home", "Clothing", "Home"],
+        "Sales": [1200, 350, 800, 450, 150, 600]
+    }
+    pd.DataFrame(mock_data).to_csv("sales_data.csv", index=False)
+    print("Note: 'sales_data.csv' was not found, so a mock dataset was created for demonstration purposes.\n")
 
 # Load dataset
 data = pd.read_csv("sales_data.csv")
